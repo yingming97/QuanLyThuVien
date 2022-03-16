@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">asm-duanmau</string>
+    <string name="dang_ky"><u>Đăng ký</u></string>
+    <string name="dang_nhap"><u>Đăng nhập</u></string>
+    <string name="navigation_drawer_open">Open drawer navigation</string>
+    <string name="navigation_drawer_close">Close drawer navigation</string>
+</resources>

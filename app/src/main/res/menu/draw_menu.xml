@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_PhieuMuon"
+        android:icon="@drawable/ic_baseline_edit_note_24"
+        android:title="Quản Lý Phiếu Mượn">
+    </item>
+    <item
+        android:id="@+id/nav_LoaiSach"
+        android:icon="@drawable/ic_baseline_library_books_24"
+        android:title="Quản Lý Loại Sách">
+    </item>
+    <item
+        android:id="@+id/nav_Sach"
+        android:icon="@drawable/ic_baseline_book_24"
+        android:title="Quản Lý Sách">
+    </item>
+    <item
+        android:id="@+id/nav_ThanhVien"
+        android:icon="@drawable/ic_baseline_assignment_ind_24"
+        android:title="Quản Lý Thành Viên">
+    </item>
+
+    <item android:title="Thống kê">
+        <menu>
+            <item
+                android:id="@+id/sub_Top"
+                android:title="Top 10 Sách Mượn Nhiều Nhất">
+            </item>
+            <item
+                android:id="@+id/sub_DoanhThu"
+                android:title="Doanh Thu">
+            </item>
+        </menu>
+    </item>
+
+    <item android:title="Người Dùng">
+        <menu>
+            <item
+                android:id="@+id/sub_AddUser"
+                android:icon="@drawable/ic_baseline_add_24"
+                android:visible="false"
+                android:title="Thêm Người Dùng">
+            </item>
+            <item
+                android:id="@+id/sub_Pass"
+                android:icon="@drawable/ic_baseline_lock_24"
+                android:title="Đổi mật khẩu">
+            </item>
+            <item
+                android:id="@+id/sub_Logout"
+                android:icon="@drawable/ic_baseline_exit_to_app_24"
+                android:title="Đăng Xuất">
+            </item>
+        </menu>
+    </item>
+</menu>
